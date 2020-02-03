@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "chromeExtensionInjector",
+  "description": "Chrome extension to inject scripts",
+  "version": "1.0",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {},
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
